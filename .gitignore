@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment files
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary render artifacts
+report_print.html
+
+# Kaggle and dataset artifacts
+kaggle.json
+fashionpedia/
+fashionpedia.zip
+
+# Generated model artifacts
+*.faiss
+*.pkl
+*.npy
+*.npz
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
